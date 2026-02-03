@@ -40,6 +40,31 @@ span.style_txt_error {
     font-size: 0.9em;
 }
 
+.padding{
+    padding: 50px;
+}
+
+
+.header_style{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+};
+
+.prova{
+    background-color: #b9b9b9;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+};
+
+.footer_style{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+};
+
+
+
+
+
+
 /* Styles classes */
 
 .bg-light-blue {
@@ -50,6 +75,17 @@ span.style_txt_error {
     background-color: #0a2342;
     color: white;
 }
+
+.bg_dark_green {
+    background-color: #006400;
+};
+
+.text-white {
+    color: white;
+} 
+
+
+
 
 
 
