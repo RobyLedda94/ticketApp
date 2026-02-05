@@ -2,7 +2,7 @@
 
 
 // Funzione per la generazione dinamica delle cards
-function create_card(card) {
+function create_card(user_card) {
     // Creazione elemento col
     let col = document.createElement('div');
     col.className = 'col-12 col-md-6 col-lg-4 my-4';
@@ -10,15 +10,15 @@ function create_card(card) {
     // Contenuto card
     col.innerHTML = `
         <div class = 'card text-center h-100'>
-            <img src='${card.img || 'https://via.placeholder.com/150'}' class='card-img-top' alt='card.img'>
+            <img src='${user_card.img || 'https://via.placeholder.com/150'}' class='card-img-top' alt='user_card.img'>
             <div class='card-body'>
-                <h5 class='card-title'>${card.title}</h5>
-                <p class='card-text'>${card.text}</p>
+                <h5 class='card-title'>${user_card.title}</h5>
+                <p class='card-text'>${user_card.text}</p>
             </div>
             <div class='card-body'>
-                <button type='button' class='btn btn-primary btn-sm' onclick='onRead("${card.id}")'>Read</button>
-                <button type='button' class='btn btn-warning btn-sm' onclick='onUpdate("${card.id}")'>Update</button>
-                <button type='button' class='btn btn-danger btn-sm' onclick='onDelete("${card.id}")'>Delete</button>
+                <button type='button' class='btn btn-primary btn-sm' onclick='onRead("${user_card.id}")'>Read</button>
+                <button type='button' class='btn btn-warning btn-sm' onclick='onUpdate("${user_card.id}")'>Update</button>
+                <button type='button' class='btn btn-danger btn-sm' onclick='onDelete("${user_card.id}")'>Delete</button>
             </div>
         </div>`;
 

@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Sezione header -->
-    <header class="bg-black-blue py-5 header_style">
+    <header class="bg-black-blue py-5">
         <div class="container py-3">
             <div class="row">
                 <div class="col-12 col-sm-6">
@@ -23,34 +23,52 @@
     </header>
     <!-- Sezione main -->
     <main>
+
         <div class="container py-200">
             <div class="row">
+                <div class="col-12">
+                    <h2 class="py-2">Registrazione Utente</h2>
+                </div>
                 <div class="col-12">
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputUseralias" class="form-label">Alias</label>
+                            <!-- Elemento da recuperare il valore -->
                             <input id="user_alias" type="text" class="form-control" >
+                            <!-- Messaggio errore -->
+                            <div id="msg_error_alias"><span class="style_txt_error">Prova</span></div>
                         </div>
                         <div class="col-md-6">
                             <label for="inputUserType" class="form-label">Tipologia Utente</label>
+                            <!-- Elemento da recuperare il valore -->
                             <select id="user_type" class="form-select" aria-label="Default select example">
                                 <option selected>Premi per visualizzare le opzioni</option>
                                 <option value="1">Amministratore</option>
                                 <option value="2">Utente normale</option>
                         </select>
+                        <!-- Messaggio errore -->
+                        <div id="msg_error_UserType"><span class="style_txt_error">Prova</span></div>
                         </div>
                         <div class="col-md-6">
                             <label for="input_name" class="form-label">Nome</label>
+                            <!-- Elemento da recuperare il valore -->
                             <input id="user_name" type="text" class="form-control" placeholder="Inserisci il tuo nome">
-                            
+                            <!-- Messaggio errore -->
+                            <div id="msg_error_name"><span class="style_txt_error">Prova</span></div>
                         </div>
                         <div class="col-md-6">
+                            <!-- Elemento da recuperare il valore -->
                             <label for="input_lastName" class="form-label">Cognome</label>
                             <input id="user_lastName" type="text" class="form-control" placeholder="Inserisci il tuo cognome">
+                            <!-- Messaggio errore -->
+                            <div id="msg_error_lastName"><span class="style_txt_error">Prova</span></div>
                         </div>
                         <div class="col-12">
+                            <!-- Elemento da recuperare il valore -->
                             <label for="input_password" class="form-label">Password</label>
                             <input id="user_password" type="password" class="form-control" placeholder="Inserisci la tua password">
+                            <!-- Messaggio errore -->
+                            <div id="msg_error_password"><span class="style_txt_error">Prova</span></div>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Register</button>
@@ -80,6 +98,6 @@
         </div>
     </footer>
     <!-- Script js -->
-    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
 </body>
 </html>

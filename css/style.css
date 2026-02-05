@@ -2,6 +2,9 @@
 
 
 
+
+
+
 /* Utility classes */
 
 .txt-center {
@@ -15,6 +18,11 @@
 .txt-left {
     text-align: left;
 } 
+
+.py_50{
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
 
 .py-100 {
     padding-top: 100px;
@@ -30,42 +38,21 @@
     height: 100vh;
 }
 
-.list-unstyled {
-    list-style: none;
-    padding-left: 0;
-}
-
-span.style_txt_error {
-    color: red;
-    font-size: 0.9em;
-}
 
 .padding{
     padding: 50px;
 }
 
 
-.header_style{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-};
-
-.prova{
-    background-color: #b9b9b9;
-    border-radius: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-};
-
-.footer_style{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-};
-
-
-
 
 
 
 /* Styles classes */
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
 
 .bg-light-blue {
     background-color: #d0e7f9;
@@ -83,6 +70,14 @@ span.style_txt_error {
 .text-white {
     color: white;
 } 
+
+
+span.style_txt_error {
+    color: red;
+    font-size: 0.9em;
+}
+
+
 
 
 
